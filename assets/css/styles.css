@@ -1336,7 +1336,11 @@ img {
   }
 
   .button--cv {
-    width: 10rem;
+    font-size: 0.65rem;
+  }
+
+  .button--cv i {
+    display: none;
   }
 
   .skills__title {
