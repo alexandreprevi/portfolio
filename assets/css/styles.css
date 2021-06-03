@@ -565,7 +565,7 @@ img {
 .about__buttons {
   display: flex;
   justify-content: center;
-  padding: 3rem;
+  padding: 6rem;
 }
 
 /*==================== SKILLS ====================*/
@@ -1389,6 +1389,43 @@ img {
     display: grid;
     grid-template-columns: 0.6fr;
     justify-content: center;
+  }
+}
+
+@media (orientation: landscape) {
+  .home__social {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .home__social a {
+    margin: 0.3rem;
+  }
+
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+
+  .home__container {
+    height: 80vh;
+  }
+
+  .services {
+    height: fit-content;
+  }
+
+  .services__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services__content {
+    padding: auto;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1rem;
   }
 }
 
