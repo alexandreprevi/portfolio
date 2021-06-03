@@ -1305,10 +1305,18 @@ img {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
+  .home__social a {
+    margin: 0.1rem;
+  }
+
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
+  }
+
+  .home__container {
+    height: 80vh;
   }
 
   .nav__menu {
@@ -1327,13 +1335,17 @@ img {
     gap: 0.5rem;
   }
 
+  .services {
+    height: fit-content;
+  }
+
   .services__container {
-    grid-template-columns: max-content;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .services__content {
-    padding-right: 3.5rem;
+    padding: auto;
   }
 
   .services__modal {
