@@ -1335,6 +1335,10 @@ img {
     column-gap: 0;
   }
 
+  .button--cv {
+    width: 10rem;
+  }
+
   .skills__title {
     font-size: var(--normal-font-size);
   }
@@ -1377,6 +1381,10 @@ img {
     justify-self: center;
   }
 
+  .button--cv {
+    width: 10rem;
+  }
+
   .about__container,
   .portfolio__content,
   .project__container,
@@ -1406,6 +1414,10 @@ img {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
+  }
+
+  .button--cv {
+    width: 10rem;
   }
 
   .home__container {
