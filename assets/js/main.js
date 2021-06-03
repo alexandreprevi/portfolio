@@ -41,7 +41,6 @@ function toggleSkills() {
     skillSet.forEach((element) => {
       element.classList.remove(`animate__bar${element.id}`);
     });
-    console.log("remove");
   }
 
   if (itemClass === "skills__content skills__close") {
@@ -49,7 +48,6 @@ function toggleSkills() {
     skillSet.forEach((element) => {
       element.classList.add(`animate__bar${element.id}`);
     });
-    console.log("added");
   }
 }
 

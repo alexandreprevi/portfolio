@@ -1306,8 +1306,14 @@ img {
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 360px) {
+  .home__social {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
   .home__social a {
-    margin: 0.1rem;
+    margin: 0.3rem;
   }
 
   .container {
@@ -1346,6 +1352,7 @@ img {
 
   .services__content {
     padding: auto;
+    margin-bottom: 1rem;
   }
 
   .services__modal {
