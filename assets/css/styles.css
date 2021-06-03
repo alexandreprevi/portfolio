@@ -540,6 +540,7 @@ img {
 .about__info {
   display: flex;
   justify-content: space-between;
+  text-align: center;
   margin-left: 6rem;
   margin-right: 6rem;
   margin-bottom: var(--mb-2-5);
@@ -564,6 +565,7 @@ img {
 .about__buttons {
   display: flex;
   justify-content: center;
+  padding: 3rem;
 }
 
 /*==================== SKILLS ====================*/
