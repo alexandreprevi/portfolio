@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" href="assets/img/circle.png">
+    <link rel="icon" href="assets/img/circle.png" />
 
     <!--==================== UNICONS ====================-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -24,7 +30,7 @@
         <a href="#" class="nav__logo">Alexandre Previ</a>
 
         <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
+          <!-- <ul class="nav__list grid">
             <li class="nav__item">
               <a href="#home" class="nav__link active-link">
                 <i class="uil uil-estate nav__icon"></i>Home
@@ -47,16 +53,15 @@
               </a>
             </li>
           </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
+          <i class="uil uil-times nav__close" id="nav-close"></i> -->
         </div>
-
 
         <div class="nav__btns">
           <!-- Theme change button -->
           <i class="uil uil-moon change-theme" id="theme-button"></i>
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="uil uil-apps"></i>
-            </div>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
         </div>
       </nav>
     </header>
@@ -64,272 +69,340 @@
     <!--==================== MAIN ====================-->
     <main class="main">
       <!--==================== HOME ====================-->
-      
-      <section class="home section" id="home">
-          <div class="home__container container grid">
-              <div class="home__content grid">
-                  <div class="home__social">
-                      <a href="https://www.linkedin.com/in/alexandre-previ" target="_blank"  class="home__social-icon icon--flip">
-                        <i class="uil uil-linkedin-alt"></i>
-                      </a>
-                      <a href="https://www.github.com/alexandreprevi" target="_blank" class="home__social-icon icon--flip">
-                        <i class="uil uil-github-alt"></i>
-                      </a>
-                      <a href="#contact" class="home__social-icon icon--flip">
-                        <i class="uil uil-envelope"></i>
-                      </a>
-                  </div>
 
-                  <div class="home__data">
-                      <h1 class="home__title">Hi<span class="home__title-dot">.</span> I'am Alex</h1>
-                      <h3 class="home__subtitle">Fullstack developer</h3>
-                      <div class="home__buttons">
-                        <a href="https://www.github.com/alexandreprevi" target="_blank" class="button--work ">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                          My work
-                        </a>
-                      </div>
-                  </div>
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__data">
+              <h1 class="home__title">
+                Hi<span class="home__title-dot">.</span> I'am Alex
+              </h1>
+              <h3 class="home__subtitle">Fullstack developer</h3>
+              <div class="home__social">
+                <a
+                  href="https://www.linkedin.com/in/alexandre-previ"
+                  target="_blank"
+                  class="home__social-icon icon--flip"
+                >
+                  <i class="uil uil-linkedin-alt"></i>
+                </a>
+                <a
+                  href="https://www.github.com/alexandreprevi"
+                  target="_blank"
+                  class="home__social-icon icon--flip"
+                >
+                  <i class="uil uil-github-alt"></i>
+                </a>
+                <a href="#contact" class="home__social-icon icon--flip">
+                  <i class="uil uil-envelope"></i>
+                </a>
               </div>
+              <!-- <div class="home__buttons">
+                <a
+                  href="https://www.github.com/alexandreprevi"
+                  target="_blank"
+                  class="button--work"
+                >
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  My work
+                </a>
+              </div> -->
+            </div>
           </div>
-        </section>
-      
+        </div>
+      </section>
 
       <!--==================== ABOUT ====================-->
-      <section class="about section" id="about">
+      <!-- <section class="about section" id="about">
         <h2 class="section__title">About</h2>
         <span class="section__subtitle">Me</span>
 
         <div class="about__container container grid">
-          <img src="assets/img/about.jpg" alt="" class="about__img">
+          <img src="assets/img/about.jpg" alt="" class="about__img" />
 
           <div class="about__data">
-            <p class="about__description">There is always something new to learn in this field, which is an absolute
-              blessing as it fits my curious personality very well. <br><br> I am a big fan of
-              Javascript and Typescript and enjoy using React. <br><br> On the backend, Node
-              with Express is what I know best, though I am definitely open to other
-              languages and eager to learn and develop my knowledge.
-              </p>
+            <p class="about__description">
+              There is always something new to learn in this field, which is an
+              absolute blessing as it fits my curious personality very well.
+              <br /><br />
+              I am a big fan of Javascript and Typescript and enjoy using React.
+              <br /><br />
+              On the backend, Node with Express is what I know best, though I am
+              definitely open to other languages and eager to learn and develop
+              my knowledge.
+            </p>
             <div class="about__info">
               <div>
                 <span class="about__info-title">02+</span>
-                <span class="about__info-name">Years<br>Frontend</span>
+                <span class="about__info-name">Years<br />Frontend</span>
               </div>
               <div>
                 <span class="about__info-title">01+</span>
-                <span class="about__info-name">Years <br>Backend</span>
+                <span class="about__info-name">Years <br />Backend</span>
               </div>
             </div>
 
             <div class="about__buttons">
-              <a download="" href="assets/pdf/Alexandre_Previ_Fullstack_Developer.pdf" class="button button--flex button--cv">
+              <a
+                download=""
+                href="assets/pdf/Alexandre_Previ_Fullstack_Developer.pdf"
+                class="button button--flex button--cv"
+              >
                 Download &nbsp;CV
                 <i class="uil uil-download-alt"></i>
               </a>
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!--==================== SKILLS ====================-->
-      <section class="skills section" id="skills">
+      <!-- <section class="skills section" id="skills">
         <h2 class="section__title">Skills</h2>
         <span class="section__subtitle">My technical level</span>
 
-        <div class="skills__container container grid">
-          
-            
-            <!--==================== SKILLS 1 ====================-->
-            <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="uil uil-brackets-curly skills__icon"></i>
+        <div class="skills__container container grid"> -->
+      <!--==================== SKILLS 1 ====================-->
+      <!-- <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-brackets-curly skills__icon"></i>
 
-                <div>
-                  <h1 class="skills__titles">Frontend developer</h1>
-                  <span class="skills__subtitle">Html, Css, Javascript, React, Redux</span>
-                </div>
-
-                <i class="uil uil-angle-down skills__arrow"></i>
+              <div>
+                <h1 class="skills__titles">Frontend developer</h1>
+                <span class="skills__subtitle"
+                  >Html, Css, Javascript, React, Redux</span
+                >
               </div>
 
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">HTML</h3>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__html skills__set" id="85"></span>
-                  </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">HTML</h3>
                 </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">CSS</h3>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__css skills__set" id="80"></span>
-                  </div>
+                <div class="skills__bar">
+                  <span
+                    class="skills__percentage skills__html skills__set"
+                    id="85"
+                  ></span>
                 </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Javascript</h3>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__js skills__set" id="85"></span>
-                  </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">CSS</h3>
                 </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">React</h3>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__react skills__set"id="70"></span>
-                  </div>
+                <div class="skills__bar">
+                  <span
+                    class="skills__percentage skills__css skills__set"
+                    id="80"
+                  ></span>
                 </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Redux</h3>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__redux skills__set" id="60"></span>
-                  </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Javascript</h3>
+                </div>
+                <div class="skills__bar">
+                  <span
+                    class="skills__percentage skills__js skills__set"
+                    id="85"
+                  ></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">React</h3>
+                </div>
+                <div class="skills__bar">
+                  <span
+                    class="skills__percentage skills__react skills__set"
+                    id="70"
+                  ></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Redux</h3>
+                </div>
+                <div class="skills__bar">
+                  <span
+                    class="skills__percentage skills__redux skills__set"
+                    id="60"
+                  ></span>
                 </div>
               </div>
             </div>
-          
-            <!--==================== SKILLS 2 ====================-->
-            <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="uil uil-server-connection skills__icon"></i>
+          </div> -->
 
-                <div>
-                  <h1 class="skills__titles">Backend developer</h1>
-                  <span class="skills__subtitle">Node, Express, Firestore, MongoDB, MySQL </span>
-                </div>
+      <!--==================== SKILLS 2 ====================-->
+      <!-- <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-server-connection skills__icon"></i>
 
-                <i class="uil uil-angle-down skills__arrow"></i>
+              <div>
+                <h1 class="skills__titles">Backend developer</h1>
+                <span class="skills__subtitle"
+                  >Node, Express, Firestore, MongoDB, MySQL
+                </span>
               </div>
 
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Node</h3>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__node skills__set"  id="75"></span>
-                  </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Node</h3>
                 </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Express</h3>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__express skills__set"  id="80"></span>
-                  </div>
+                <div class="skills__bar">
+                  <span
+                    class="skills__percentage skills__node skills__set"
+                    id="75"
+                  ></span>
                 </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Firestore</h3>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__firestore skills__set"  id="75"></span>
-                  </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Express</h3>
                 </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">MongoDB</h3>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__mongodb skills__set"  id="70"></span>
-                  </div>
+                <div class="skills__bar">
+                  <span
+                    class="skills__percentage skills__express skills__set"
+                    id="80"
+                  ></span>
                 </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">MySQL</h3>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__mysql skills__set"  id="65"></span>
-                  </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Firestore</h3>
+                </div>
+                <div class="skills__bar">
+                  <span
+                    class="skills__percentage skills__firestore skills__set"
+                    id="75"
+                  ></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">MongoDB</h3>
+                </div>
+                <div class="skills__bar">
+                  <span
+                    class="skills__percentage skills__mongodb skills__set"
+                    id="70"
+                  ></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">MySQL</h3>
+                </div>
+                <div class="skills__bar">
+                  <span
+                    class="skills__percentage skills__mysql skills__set"
+                    id="65"
+                  ></span>
                 </div>
               </div>
             </div>
-             <!--==================== SKILLS 3 ====================-->
-             <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="uil uil-database skills__icon"></i>
+          </div> -->
+      <!--==================== SKILLS 3 ====================-->
+      <!-- <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-database skills__icon"></i>
 
-                <div>
-                  <h1 class="skills__titles">Others</h1>
-                  <span class="skills__subtitle">Typescript, REST API, Mocha, Chai, Jest, CI/CD</span>
-                </div>
-
-                <i class="uil uil-angle-down skills__arrow"></i>
+              <div>
+                <h1 class="skills__titles">Others</h1>
+                <span class="skills__subtitle"
+                  >Typescript, REST API, Mocha, Chai, Jest, CI/CD</span
+                >
               </div>
 
-              <div class="skills__list grid">
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Typescript</h3>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__typescript skills__set"  id="70"></span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Git</h3>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__git skills__set"  id="70"></span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">REST API</h3>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__api skills__set" id="75"></span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Mocha & Chai / Jest</h3>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__mocha skills__set"  id="50"></span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">CI / CD</h3>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__cicd skills__set"  id="35"></span>
-                  </div>
-                </div>
-
-              </div>
-            
+              <i class="uil uil-angle-down skills__arrow"></i>
             </div>
-          
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Typescript</h3>
+                </div>
+                <div class="skills__bar">
+                  <span
+                    class="skills__percentage skills__typescript skills__set"
+                    id="70"
+                  ></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Git</h3>
+                </div>
+                <div class="skills__bar">
+                  <span
+                    class="skills__percentage skills__git skills__set"
+                    id="70"
+                  ></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">REST API</h3>
+                </div>
+                <div class="skills__bar">
+                  <span
+                    class="skills__percentage skills__api skills__set"
+                    id="75"
+                  ></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Mocha & Chai / Jest</h3>
+                </div>
+                <div class="skills__bar">
+                  <span
+                    class="skills__percentage skills__mocha skills__set"
+                    id="50"
+                  ></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">CI / CD</h3>
+                </div>
+                <div class="skills__bar">
+                  <span
+                    class="skills__percentage skills__cicd skills__set"
+                    id="35"
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
+      </section> -->
 
       <!--==================== QUALIFICATION ====================-->
-      <section class="qualification section">
+      <!-- <section class="qualification section">
         <h2 class="section__title">Qualification</h2>
         <span class="section__subtitle">My personal journey</span>
 
         <div class="qualification__container container">
           <div class="qualification__tabs">
-            <div class="qualification__button button--flex qualification__active" data-target="#education">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
               <i class="uil uil-graduation-cap qualification__icon"></i>
               Education
             </div>
@@ -339,11 +412,15 @@
             </div>
           </div>
 
-          <div class="qualification__sections">
-            <!--==================== QUALIFICATION CONTENT 1 ====================-->
-            <div class="qualification__content qualification__active" data-content id="education">
-              <!--==================== QUALIFICATION 1 ====================-->
-              <div class="qualification__data">
+          <div class="qualification__sections"> -->
+      <!--==================== QUALIFICATION CONTENT 1 ====================-->
+      <!-- <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            > -->
+      <!--==================== QUALIFICATION 1 ====================-->
+      <!-- <div class="qualification__data">
                 <div>
                   <h3 class="qualification__title">Sound Engineer</h3>
                   <span class="qualification__subtitle">Paris - ISTS</span>
@@ -356,10 +433,10 @@
                   <span class="qualification__rounder"></span>
                   <span class="qualification__line"></span>
                 </div>
-              </div>
+              </div> -->
 
-              <!--==================== QUALIFICATION 2 ====================-->
-              <div class="qualification__data">
+      <!--==================== QUALIFICATION 2 ====================-->
+      <!-- <div class="qualification__data">
                 <div></div>
                 <div>
                   <span class="qualification__rounder"></span>
@@ -368,20 +445,23 @@
 
                 <div>
                   <h3 class="qualification__title">Youth Leader</h3>
-                  <span class="qualification__subtitle">Evian / Barcelona - BAFA</span>
+                  <span class="qualification__subtitle"
+                    >Evian / Barcelona - BAFA</span
+                  >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
                     2015
                   </div>
                 </div>
-              </div>
+              </div> -->
 
-              <!--==================== QUALIFICATION 3 ====================-->
-              <div class="qualification__data">
-                
+      <!--==================== QUALIFICATION 3 ====================-->
+      <!-- <div class="qualification__data">
                 <div>
                   <h3 class="qualification__title">Fullstack developer</h3>
-                  <span class="qualification__subtitle">Stockholm - Nackademin</span>
+                  <span class="qualification__subtitle"
+                    >Stockholm - Nackademin</span
+                  >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
                     2019 - 2021
@@ -389,18 +469,20 @@
                 </div>
 
                 <div>
-                  <span class="qualification__rounder"></span>
-                  <!-- <span class="qualification__line"></span> -->
-                </div>
+                  <span class="qualification__rounder"></span> -->
+      <!-- <span class="qualification__line"></span> -->
+      <!-- </div>
               </div>
-              </div>
-            
-            <!--==================== QUALIFICATION CONTENT 2 ====================-->
-            <div class="qualification__content" data-content id="work">
-              <!--==================== QUALIFICATION 1 ====================-->
-              <div class="qualification__data">
+            </div> -->
+
+      <!--==================== QUALIFICATION CONTENT 2 ====================-->
+      <!-- <div class="qualification__content" data-content id="work"> -->
+      <!--==================== QUALIFICATION 1 ====================-->
+      <!-- <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Frontend Developer intern</h3>
+                  <h3 class="qualification__title">
+                    Frontend Developer intern
+                  </h3>
                   <span class="qualification__subtitle">Qolly - Stockholm</span>
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
@@ -411,14 +493,14 @@
                   <span class="qualification__rounder"></span>
                   <span class="qualification__line"></span>
                 </div>
-              </div>
-              <!--==================== QUALIFICATION 2 ====================-->
-              <div class="qualification__data">
+              </div> -->
+      <!--==================== QUALIFICATION 2 ====================-->
+      <!-- <div class="qualification__data">
                 <div></div>
 
                 <div>
                   <span class="qualification__rounder"></span>
-                   <span class="qualification__line"></span> 
+                  <span class="qualification__line"></span>
                 </div>
 
                 <div>
@@ -429,13 +511,14 @@
                     Feb - May 2021
                   </div>
                 </div>
-                
-              </div>
-              <!--==================== QUALIFICATION 3 ====================-->
-              <div class="qualification__data">
+              </div> -->
+      <!--==================== QUALIFICATION 3 ====================-->
+      <!-- <div class="qualification__data">
                 <div>
                   <h3 class="qualification__title">Frontend Developer</h3>
-                  <span class="qualification__subtitle">Formbound AB - Stockholm</span>
+                  <span class="qualification__subtitle"
+                    >Formbound AB - Stockholm</span
+                  >
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
                     Sep 2021 - Feb 2022
@@ -443,37 +526,42 @@
                 </div>
                 <div>
                   <span class="qualification__rounder"></span>
-                  
                 </div>
               </div>
-             
             </div>
-
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!--==================== SERVICES ====================-->
-      <section class="services section">
+      <!-- <section class="services section">
         <h2 class="section__title">What I can</h2>
         <span class="section__subtitle">and what I wish to do</span>
 
-        <div class="services__container container grid">
-           <!--==================== SERVICE 1 ====================-->
-           <div class="services__content">
+        <div class="services__container container grid"> -->
+      <!--==================== SERVICE 1 ====================-->
+      <!-- <div class="services__content">
             <div>
               <i class="uil uil-arrow services__icon"></i>
-              <h3 class="services__title">Frontend <br> Developement</h3>
+              <h3 class="services__title">
+                Frontend <br />
+                Developement
+              </h3>
             </div>
 
-            <span class="button button--flex button--small button--link services__button">
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
               View more
               <i class="uil uil-arrow-right button__icon"></i>
             </span>
 
             <div class="services__modal">
               <div class="services__modal-content">
-                <h4 class="services__modal-title">Frontend <br> Developement</h4>
+                <h4 class="services__modal-title">
+                  Frontend <br />
+                  Developement
+                </h4>
                 <i class="uil uil-times services__modal-close"></i>
 
                 <ul class="services__modal-services grid">
@@ -504,22 +592,30 @@
                 </ul>
               </div>
             </div>
-          </div>
-          <!--==================== SERVICE 2 ====================-->
-          <div class="services__content">
+          </div> -->
+      <!--==================== SERVICE 2 ====================-->
+      <!-- <div class="services__content">
             <div>
               <i class="uil uil-pen services__icon"></i>
-              <h3 class="services__title">Backend <br> Developement</h3>
+              <h3 class="services__title">
+                Backend <br />
+                Developement
+              </h3>
             </div>
 
-            <span class="button button--flex button--small button--link services__button">
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
               View more
               <i class="uil uil-arrow-right button__icon"></i>
             </span>
 
             <div class="services__modal">
               <div class="services__modal-content">
-                <h4 class="services__modal-title">Backend <br> Developement</h4>
+                <h4 class="services__modal-title">
+                  Backend <br />
+                  Developement
+                </h4>
                 <i class="uil uil-times services__modal-close"></i>
 
                 <ul class="services__modal-services grid">
@@ -546,22 +642,30 @@
                 </ul>
               </div>
             </div>
-          </div>
-          <!--==================== SERVICE 3 ====================-->
-          <div class="services__content">
+          </div> -->
+      <!--==================== SERVICE 3 ====================-->
+      <!-- <div class="services__content">
             <div>
               <i class="uil uil-web-grid services__icon"></i>
-              <h3 class="services__title">Web <br> Developement</h3>
+              <h3 class="services__title">
+                Web <br />
+                Developement
+              </h3>
             </div>
 
-            <span class="button button--flex button--small button--link services__button">
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
               View more
               <i class="uil uil-arrow-right button__icon"></i>
             </span>
 
             <div class="services__modal">
               <div class="services__modal-content">
-                <h4 class="services__modal-title">Web <br> Development</h4>
+                <h4 class="services__modal-title">
+                  Web <br />
+                  Development
+                </h4>
                 <i class="uil uil-times services__modal-close"></i>
 
                 <ul class="services__modal-services grid">
@@ -589,15 +693,11 @@
               </div>
             </div>
           </div>
-         
-
         </div>
-      </section>
-
-    
+      </section> -->
 
       <!--==================== CONTACT ====================-->
-      <section class="contact section" id="contact">
+      <!-- <section class="contact section" id="contact">
         <h2 class="section__title">Contact</h2>
         <span class="section__subtitle">Get in touch</span>
 
@@ -647,7 +747,13 @@
             </div>
             <div class="contact__content">
               <label for="" class="contact__label">Message</label>
-              <textarea name="" id="" cols="0" rows="7" class="contact__input contact__textarea" ></textarea>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="7"
+                class="contact__input contact__textarea"
+              ></textarea>
             </div>
             <div>
               <a href="#" class="button button--flex">
@@ -656,9 +762,8 @@
               </a>
             </div>
           </form>
-
         </div>
-      </section>
+      </section>-->
     </main>
 
     <!--==================== FOOTER ====================-->
@@ -670,34 +775,41 @@
             <span class="footer__subtitle">Fullstack Developer</span>
           </div>
 
-          <ul class="footer__links">
+          <!-- <ul class="footer__links">
             <li>
               <a href="#about" class="footer__link">About</a>
             </li>
             <li>
               <a href="#contact" class="footer__link">Contact</a>
             </li>
-          </ul>
+          </ul> -->
 
           <div class="footer__socials">
-            <a href="https://www.linkedin.com/in/alexandre-previ" target="_blank" class="footer__social">
+            <a
+              href="https://www.linkedin.com/in/alexandre-previ"
+              target="_blank"
+              class="footer__social"
+            >
               <i class="uil uil-linkedin"></i>
             </a>
-            <a href="https://www.github.com/alexandreprevi" target="_blank" class="footer__social">
+            <a
+              href="https://www.github.com/alexandreprevi"
+              target="_blank"
+              class="footer__social"
+            >
               <i class="uil uil-github"></i>
             </a>
           </div>
-
         </div>
 
-        <div class="footer__copy">&#169; 2021</div>
+        <!-- <div class="footer__copy">&#169; 2021</div> -->
       </div>
     </footer>
 
     <!--==================== SCROLL TOP ====================-->
-    <a href="#" class="scrollup" id="scroll-up">
+    <!-- <a href="#" class="scrollup" id="scroll-up">
       <i class="uil uil-arrow-up scrollup__icon"></i>
-    </a>
+    </a> -->
 
     <!--==================== MAIN JS ====================-->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
